@@ -20,7 +20,6 @@ h1 {
 
 .eu {
     display: flex;
-    flex-wrap: wrap; /* Permite que os itens se ajustem à largura da tela */
     justify-content: center;
     align-items: center;
     color: white;
@@ -29,7 +28,7 @@ h1 {
 }
 
 .eu img {
-    max-width: 100%; /* A imagem ocupará no máximo 100% da largura disponível */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 50%;
+    height: auto;
     margin-right: 20px;
 }
