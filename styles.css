@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: #1b1c1c;
+}
+
+.cabeca {
+    color: #000;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.eu {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se ajustem à largura da tela */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.eu img {
+    max-width: 100%; /* A imagem ocupará no máximo 100% da largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 20px;
+}
